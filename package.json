@@ -1,0 +1,22 @@
+{
+  "name": "github-actions-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starfish719/github-actions-example.git"
+  },
+  "author": "starfish719 (https://github.com/starfish719)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/starfish719/github-actions-example/issues"
+  },
+  "homepage": "https://github.com/starfish719/github-actions-example#readme",
+  "devDependencies": {
+    "jest": "^27.0.2"
+  }
+}
