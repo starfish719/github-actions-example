@@ -1,5 +1,12 @@
 name: Test
-on: pull_request
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/test.yaml'
+      - 'src/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'test_split_files.sh'
 
 jobs:
   lint:
