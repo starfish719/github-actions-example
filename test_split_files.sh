@@ -1,3 +1,4 @@
+#!/bin/bash
 i=0
 ret=()
 for v in $@
