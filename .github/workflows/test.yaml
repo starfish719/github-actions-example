@@ -31,4 +31,4 @@ jobs:
         run: |
           chmod +rx ./test_split_files.sh
           TEST_FILES="$(find ./src/__tests__ -type f -name "*.test.js" | xargs ./test_split_files.sh)"
-          npm run test TEST_FILES
+          npm run test $TEST_FILES
