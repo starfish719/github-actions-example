@@ -33,5 +33,5 @@ jobs:
           CI_NODE_INDEX: ${{ matrix.ci_node_index }}
         run: |
           chmod +rx ./test_split_files.sh
-          TEST_FILES="$(find ./__tests__ -type f -name "*_test.js" | xargs ./test_split_files.sh)"
+          TEST_FILES="$(find ./src/__tests__ -type f -name "*_test.js" | xargs ./test_split_files.sh)"
           npm run test TEST_FILES
